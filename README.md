@@ -1,0 +1,2 @@
+# xray
+build xray
