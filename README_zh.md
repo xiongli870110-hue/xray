@@ -1,6 +1,6 @@
 # xray_docker
 
-Xray (XTLS/Xray-core) 的轻量级 Docker 设置，提供了常见配置（WS+TLS 和 XHTTP+Reality）的开箱即用入口脚本。此仓库为希望轻松运行容器化 Xray 的用户提供了简单解决方案。
+Xray (XTLS/Xray-core) 的轻量级 Docker 设置，提供了常见配置（WS+TLS 和 XHTTP+Reality）的开箱即用入口脚本。此仓库为希望轻松运行容器化 Xray 的用户提供了简单解决方案，官方地址为https://github.com/rakersfu/xray_docker。
 
 ## 这是什么
 
@@ -80,7 +80,7 @@ docker compose up -d
 
 ## 端口
 
-- 443 - 默认情��下由两个脚本中的 Reality/TLS 入站使用
+- 443 - 默认情况下由两个脚本中的 Reality/TLS 入站使用
 - 2779 - entrypoint_new.sh 使用的示例 XHTTP 入站端口
 
 使用环境变量或 Docker 端口映射调整这些端口。
